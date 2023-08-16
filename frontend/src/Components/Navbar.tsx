@@ -290,7 +290,7 @@ var category="T-Shirt"
                   <DrawerCloseButton />
                   <DrawerHeader>
                     <Link to="/" >
-                      <Image w="70%" src="https://images.bewakoof.com/web/ic-desktop-normal-bwkf-logo-christmas-v1.svg" alt="" /></Link></DrawerHeader>
+                      <Image w="70%" src={logo} alt="" /></Link></DrawerHeader>
 
                   <DrawerBody>
                     {token ? <Box bg="#E2E8F0" fontWeight={"bold"} p="10px" >Hi, &nbsp; <Box as="em" >{username}</Box> </Box> : <Link to="/UserLogin" >
