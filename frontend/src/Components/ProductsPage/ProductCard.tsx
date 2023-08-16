@@ -51,10 +51,7 @@ const ProductCard = (props:IproductData) => {
                 alt={name}
               />
               <Box>
-                <Text fontSize="12px" fontWeight="bold">
-                  {manufacturer_brand}
-                  {/* {_id} */}
-                </Text>
+               
                 <Box fontSize="10px" color="#737373" mt="4px">
                   {name}
                 </Box>

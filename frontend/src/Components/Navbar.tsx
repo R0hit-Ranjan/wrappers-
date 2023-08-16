@@ -1,6 +1,6 @@
 import { ChevronDownIcon, SearchIcon } from "@chakra-ui/icons";
 import { Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, extendTheme, useDisclosure } from '@chakra-ui/react'
-
+import logo from "../logoimage.png"
 import {
   Box,
   Flex,
@@ -97,8 +97,8 @@ var category="T-Shirt"
               <Link to="/">
                 <Image
                   w="147px"
-                  h="20px"
-                  src="https://images.bewakoof.com/web/ic-desktop-normal-bwkf-logo-christmas-v1.svg"
+                  h="40px"
+                  src={logo}
                 />
               </Link>
             </Box>
